@@ -8,13 +8,13 @@ pipeline {
            }
         }
 stages {
-        stage('package') { 
+ stage('package') { 
             steps {
               sh 'echo Hello'
            }
         }
 stages {
-        stage('deploy') { 
+stage('deploy') { 
             steps {
               sh 'echo Hello'
            }
